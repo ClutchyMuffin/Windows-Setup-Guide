@@ -1,5 +1,6 @@
 # <h1 align ="center"> <img src="https://user-images.githubusercontent.com/81617629/163785707-deed9383-3d8f-40ed-b5e2-c3f0662099ce.png" width="30"> Windows 10/11 Setup Guide </h1>
 <h4 align ="center">Step-by-Step Guide to setup a clean install of Windows (10/11)</h4>
+<h4 align ="center">This Guide follows the setup of a Windows 11 Installation, but can be used for Windows 10 as well</h4>
 
 ***
 
