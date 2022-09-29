@@ -220,31 +220,31 @@ Open `Settings`, and set up any and everything you want according to your prefer
 
 ## Optional Stuff
 
-1. Nilesoft Shell
-   - In Windows 11, Microsoft Introduced a new context menu (Menu that opens when you right-click). The problem with this is that even though it looks nicer, it has moved a lot of stuff around, making the basic functionality a lot more tedious.
+1. Registry Tweaks
+
+   > ***This next part includes making changes to the registry of Windows. If you are not comfortable doing this, avoiding this step is recommended.***
+   
+   - Make a backup of Registry first before proceeding. Incase something breaks, you can use this file to restore the registry to the default state. You can also use the System restore point to go back to the stable setup. 
+     - Open Registry Editor by typing `regedit` in Run `Win + R`
+     - At the top left corner, Click `File` > `Export`. Save the backup in a safe place.
+
+   -  Some basic Registry Tweaks. Download [this](https://www.mediafire.com/file/bg2h0xf02ryn5dt/RegTweaks.reg/file) file. You can see what changes this will make to the registry by Right-Clicking on this file and clicking `Edit`
+      - This restores the Windows 10 context menu, disables things like `Power Throttling` , `Network Throttling` ,  `Games Scheduling` , `Automatic Maintainence`, `Hibernate` , `Menu Show Delay`, and removes `Bing` and other useless stuff from Windows.
+      
+
+2. [Nilesoft Shell](https://nilesoft.org/)
+   - In Windows 11, Microsoft Introduced a new context menu (Menu that opens when you right-click). The problem with this is that even though it looks nicer, it has moved a lot of stuff around, making the basic functionality a lot more tedious. Above, The registry tweaks restored the W10 context menu, while this is a replacement.
    - Fortunately, ***Shell*** is a context menu extender, that not only looks identical, but is a lot more powerful.
              
         <img src="https://user-images.githubusercontent.com/81617629/163951766-540937ff-ebf2-4c0c-9615-68a402dda5b4.png">
         
    - You can handpick the items to integrate into Windows File Explorer context menu, create custom commands to access all your favorite web pages, files, and folders, and launch any application directly from the context menu.
 handpick the items to integrate into Windows File Explorer context menu, create custom commands to access all your favorite web pages, files, and folders, and launch any application directly from the context menu.
-   - Setting it up is pretty simple. **Download** the zip file (32-bit or 64-bit) > **Extract** > Cut and Paste it to a safe place (Like ***Program Filex***) > Run the `Shell.exe` as `Administrator` > `Register`.
+   - Setting it up is pretty simple. **Download** the zip file (32-bit or 64-bit) > **Extract** > Cut and Paste it to a safe place (Like ***Program Files***) > Run the `Shell.exe` as `Administrator` > `Register`.
    - The Windows Explorer will restart, and you will have a brand new Context Menu.
    - You can edit everything here through the `shell.shl` file located in the directory of this application. Open it with `Notepad` and set it up however you like. I have created a custom [shell.shl](https://www.mediafire.com/file/j41xv1w8a9sgqb2/shell.shl/file) for the version 1.5, for my personal use. You dont need to use it.
    - Whenever you edit stuff in the `shell.shl`, make sure you restart the explorer. You wont see the changes you made otherwise.
-   - You can also revert to the Windows 10 Context Menu by following [this](https://www.tomshardware.com/how-to/restore-windows-10-explorer-windows-11) guide, but there are some highlighting issues present so it is not recommended.
 
-2. Registry Tweaks
-
-   > ***This next part includes making changes to the registry of Windows. If you are not comfortable doing this, avoiding this step is recommended.***
-   
-   - Make a backup of Registry first before proceeding. Incase something breaks, you can use this file to restore the registry to the default state. 
-     - Open Registry Editor by typing `regedit` in Run `Win + R`
-     - At the top left corner, Click `File` > `Export`. Save the backup in a safe place.
-
-   -  Some basic Registry Tweaks. Download [this](https://www.mediafire.com/file/bg2h0xf02ryn5dt/RegTweaks.reg/file) file. You can see what changes this will make to the registry by Right-Clicking on this file and clicking `Edit`
-      - This disables things like `Power Throttling` , `Network Throttling` ,  `Games Scheduling` , `Automatic Maintainence` and `Menu Show Delay`
-     
 
 
 ***
