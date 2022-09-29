@@ -182,8 +182,8 @@ Open `Settings`, and set up any and everything you want according to your prefer
    - Click on ***Xbox Game Bar*** and turn off `Open Xbox Gamebar Using this button on a controller`
    - Disable/Enable Gamebar
      - By Default, Windows 11 does not have any option to disable Gamebar. All you can do is stop the controller button from opening GameBar
-     - Use [this](https://www.mediafire.com/file/tte1yfp9kgzofiu/Disable_Gamebar.reg/file) to `Disable` GameBar.
-     - Use [this](https://www.mediafire.com/file/gg9a8ih840m376l/Enable_Gamebar.reg/file) to `Enable` GameBar.
+     - Use [this](https://www.mediafire.com/file/hdl3d7gm37c57k9/Disable_Gamebar.7z/file) to `Disable` GameBar.
+     - Use [this](https://www.mediafire.com/file/8eddx3torcrez8c/Enable_Gamebar.7z/file) to `Enable` GameBar.
 
 7. The `Privacy and Security` is all personal preference, but I recommend turning off everything you dont need. Just make sure to not fully turn off all of them, only disable what you know you dont need.
 
@@ -212,9 +212,10 @@ Open `Settings`, and set up any and everything you want according to your prefer
 
 ## Step 6 - Installing Apps
 
-- You have multiple options when downloading an application. Man common applications are availaible on the **Microsoft Store**.
+- You have multiple options when downloading an application. Many common applications are availaible on the **Microsoft Store**.
 - You can download any and all apps you require from their respective websites. You can also use [Ninite](https://ninite.com/) to make the process a lot simpler. Just select the apps you want, and click on `Get Your Ninite` at the bottom of the page. This will download a custom installer which will install/update all the apps you selected.
 - Some Recommended Apps are - [Steam](https://store.steampowered.com/about/) , [Discord](https://discord.com/) , [qBittorrent](https://www.qbittorrent.org/download.php) , [VLC Media Player](https://www.videolan.org) , [MSI AfterBurner](https://www.msi.com/Landing/afterburner/graphics-cards) , [WinAero Tweaker](https://winaero.com/download-winaero-tweaker/) , and [ShareX](https://getsharex.com/)
+- You can also refer to [this](https://github.com/ClutchyMuffin/Applications) GitHub page for some Applications that I recommend and personally use.
 
 ***
 
@@ -228,7 +229,7 @@ Open `Settings`, and set up any and everything you want according to your prefer
      - Open Registry Editor by typing `regedit` in Run `Win + R`
      - At the top left corner, Click `File` > `Export`. Save the backup in a safe place.
 
-   -  Some basic Registry Tweaks. Download [this](https://www.mediafire.com/file/bg2h0xf02ryn5dt/RegTweaks.reg/file) file. You can see what changes this will make to the registry by Right-Clicking on this file and clicking `Edit`
+   -  Some basic Registry Tweaks. Download [this](https://www.mediafire.com/file/pxmazdm9bdjjrwt/RegTweaks.7z/file) file. You can see what changes this will make to the registry by Right-Clicking on this file and clicking `Edit`
       - This restores the Windows 10 context menu, disables things like `Power Throttling` , `Network Throttling` ,  `Games Scheduling` , `Automatic Maintainence`, `Hibernate` , `Menu Show Delay`, and removes `Bing` and other useless stuff from Windows.
       
 
@@ -242,7 +243,7 @@ Open `Settings`, and set up any and everything you want according to your prefer
 handpick the items to integrate into Windows File Explorer context menu, create custom commands to access all your favorite web pages, files, and folders, and launch any application directly from the context menu.
    - Setting it up is pretty simple. **Download** the zip file (32-bit or 64-bit) > **Extract** > Cut and Paste it to a safe place (Like ***Program Files***) > Run the `Shell.exe` as `Administrator` > `Register`.
    - The Windows Explorer will restart, and you will have a brand new Context Menu.
-   - You can edit everything here through the `shell.shl` file located in the directory of this application. Open it with `Notepad` and set it up however you like. I have created a custom [shell.shl](https://www.mediafire.com/file/j41xv1w8a9sgqb2/shell.shl/file) for the version 1.5, for my personal use. You dont need to use it.
+   - You can edit everything here through the `shell.shl` file located in the directory of this application. Open it with `Notepad` and set it up however you like. I have created a custom [shell](https://www.mediafire.com/file/n0uzgr7ktn5gy4j/shell.shl/file) for the version 1.7, for my personal use. You dont need to use it.
    - Whenever you edit stuff in the `shell.shl`, make sure you restart the explorer. You wont see the changes you made otherwise.
 
 
